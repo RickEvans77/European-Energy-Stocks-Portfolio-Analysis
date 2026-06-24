@@ -71,5 +71,5 @@ This allows the identification of periods of market stress and comparison of the
 
 ## How to Run
 
-1. Clone the repository and open the Jupyter Notebook (`Asset Management Energy 06.2026.ipynb`).
+1. Clone the repository and open the Jupyter Notebook (European Energy Stocks Portfolio Analysis6.ipynb).
 2. Run all notebook cells sequentially to download the data, compute the risk metrics, generate the portfolio optimization results, and visualize rolling volatility.
