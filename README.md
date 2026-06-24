@@ -36,7 +36,6 @@ These metrics provide insight into downside risk, return consistency, and risk-a
 
 ### 3. Portfolio Optimization
 <img width="2436" height="1634" alt="efficient_frontier" src="https://github.com/user-attachments/assets/f8a31377-adbd-412b-b16b-b43068e9b667" />
-<img width="2098" height="1172" alt="optimal_weights" src="https://github.com/user-attachments/assets/d47cbbb0-5f92-4d63-87d7-11d686d0fe38" />
 
 A Monte Carlo simulation generates thousands of random portfolios with different asset allocations.
 
@@ -63,6 +62,8 @@ This allows the identification of periods of market stress and comparison of the
 * Iberdrola consistently displayed lower volatility than most peers, reflecting its more defensive risk profile within the energy sector.
 * Portfolio diversification significantly reduced overall risk compared with holding individual stocks.
 * The efficient frontier demonstrated that carefully chosen allocations can improve risk-adjusted returns relative to naive equal-weight portfolios.
+
+<img width="2098" height="1172" alt="optimal_weights" src="https://github.com/user-attachments/assets/d47cbbb0-5f92-4d63-87d7-11d686d0fe38" />
 
 ## Tech Stack
 
