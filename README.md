@@ -57,6 +57,15 @@ This allows the identification of periods of market stress and comparison of the
 
 ## Key Findings (Jan 2020 - Dec 2024, 1'283 Trading days)
 
+| Stock | Annual return | Annual volatility | Sharpe (rf = 0) | Daily VaR 95% |
+|---|---|---|---|---|
+| Iberdrola | 11.3% | 22.6% | 0.50 | −2.0% |
+| Equinor | 13.0% | 33.8% | 0.39 | −3.3% |
+| E.ON | 7.6% | 22.9% | 0.33 | −2.3% |
+| Engie | 6.6% | 26.6% | 0.25 | −2.2% |
+| TotalEnergies | 7.4% | 32.2% | 0.23 | −2.9% |
+| BP | −4.2% | 36.4% | −0.12 | −3.3% |
+
 * **Max-Sharpe portfolio** (best of 5,000 simulated portfolios, weights constrained to 5–40%):
   10.1% return, 19.8% volatility, Sharpe 0.51, vs. 6.9% / 21.3% / 0.33 for an equal-weight portfolio.
 * **Diversification:** the optimal portfolio is less volatile (19.8%) than any single stock (lowest: Iberdrola, 22.6%) and far below the average stock (29.1%).
