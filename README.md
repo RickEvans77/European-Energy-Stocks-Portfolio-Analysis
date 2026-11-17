@@ -55,13 +55,14 @@ A 30-day rolling volatility measure is calculated and annualized to examine how 
 
 This allows the identification of periods of market stress and comparison of the stability of different energy companies.
 
-## Key Findings
+## Key Findings (Jan 2020 - Dec 2024, 1'283 Trading days)
 
-* The COVID-19 market shock generated a clear volatility spike across all energy stocks, highlighting the sector's sensitivity to macroeconomic disruptions.
-* Engie and BP exhibited some of the strongest return opportunities, but these gains were accompanied by higher volatility and risk.
-* Iberdrola consistently displayed lower volatility than most peers, reflecting its more defensive risk profile within the energy sector.
-* Portfolio diversification significantly reduced overall risk compared with holding individual stocks.
-* The efficient frontier demonstrated that carefully chosen allocations can improve risk-adjusted returns relative to naive equal-weight portfolios.
+* **Max-Sharpe portfolio** (best of 5,000 simulated portfolios, weights constrained to 5–40%):
+  10.1% return, 19.8% volatility, Sharpe 0.51, vs. 6.9% / 21.3% / 0.33 for an equal-weight portfolio.
+* **Diversification:** the optimal portfolio is less volatile (19.8%) than any single stock (lowest: Iberdrola, 22.6%) and far below the average stock (29.1%).
+* **Allocation:** Iberdrola 35.5%, Equinor 32.8%, E.ON 17.9%, BP / Engie / TotalEnergies 4.6% each (minimum weight).
+* **Defensive vs. cyclical:** utilities (Iberdrola, E.ON) were the least volatile (~23%), while oil majors (BP, Equinor, TotalEnergies) ran at 32–36%. BP was the only stock with a negative return.
+* **COVID-19 shock:** 30-day annualised volatility peaked in early-to-mid April 2020 for all six stocks, ranging from 60% (E.ON) to 120% (BP), roughly 3× their 2020–2024 average levels.
 
 <img width="2098" height="1172" alt="optimal_weights" src="https://github.com/user-attachments/assets/d47cbbb0-5f92-4d63-87d7-11d686d0fe38" />
 
