@@ -35,7 +35,7 @@ Several standard portfolio risk measures are calculated:
 These metrics provide insight into downside risk, return consistency, and risk-adjusted performance.
 
 ### 3. Portfolio Optimization
-<img width="2436" height="1634" alt="efficient_frontier" src="https://github.com/user-attachments/assets/f8a31377-adbd-412b-b16b-b43068e9b667" />
+![Efficient frontier](images/efficient_frontier.png)
 
 A Monte Carlo simulation generates thousands of random portfolios with different asset allocations.
 
@@ -49,7 +49,7 @@ The efficient frontier is constructed, and the portfolio with the highest Sharpe
 
 
 ### 4. Rolling Volatility Analysis
-<img width="3002" height="1259" alt="rolling_volatility" src="https://github.com/user-attachments/assets/93fba665-15d1-4106-8062-ea2b031fa605" />
+![Rolling volatility](images/rolling_volatility.png)
 
 A 30-day rolling volatility measure is calculated and annualized to examine how risk evolves over time.
 
@@ -64,7 +64,14 @@ This allows the identification of periods of market stress and comparison of the
 * **Defensive vs. cyclical:** utilities (Iberdrola, E.ON) were the least volatile (~23%), while oil majors (BP, Equinor, TotalEnergies) ran at 32–36%. BP was the only stock with a negative return.
 * **COVID-19 shock:** 30-day annualised volatility peaked in early-to-mid April 2020 for all six stocks, ranging from 60% (E.ON) to 120% (BP), roughly 3× their 2020–2024 average levels.
 
-<img width="2098" height="1172" alt="optimal_weights" src="https://github.com/user-attachments/assets/d47cbbb0-5f92-4d63-87d7-11d686d0fe38" />
+![Optimal weights](images/optimal_weights.png)
+
+## Limitations
+
+* In-sample optimisation: weights are chosen and evaluated on the same data, so performance is overstated.
+* Risk-free rate set to 0; no transaction costs or rebalancing.
+* Returns are in local currencies (GBP, NOK, EUR) with no FX conversion.
+* Monte Carlo search approximates the optimum rather than solving it exactly.
 
 ## Tech Stack
 
@@ -73,8 +80,6 @@ This allows the identification of periods of market stress and comparison of the
 * numpy
 * yfinance
 * matplotlib
-
-## How to Run
 
 ## How to Run
 
